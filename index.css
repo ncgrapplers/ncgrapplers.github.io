@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: max(3vmin, 17px);
+  font-size: max(3.5vmin, 17px);
   padding: 0 3vw;
   text-align: center;
   gap: 3vh;
@@ -43,7 +43,7 @@ hr {
 }
 
 .section {
-  width: 50vw;
+  width: 70vw;
   justify-content: center;
 }
 
@@ -76,7 +76,27 @@ hr {
   gap: 3vh
 }
 
+#mission_statement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3vw;
+  padding: 0 3vw;
+}
+
+img {
+  height: 50vw;
+  max-height: 400px;
+}
+
 #contact_us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3vw;
+}
+
+#contacts_list {
   display: flex;
   flex-direction: column;
   gap: 2vh;
