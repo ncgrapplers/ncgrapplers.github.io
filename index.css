@@ -67,6 +67,15 @@ hr {
   color: var(--accent-color);
 }
 
+.link {
+  text-decoration: none;
+  color: var(--secondary-color);  
+}
+
+.link:active {
+  color: var(--accent-color);
+}
+
 #logo {
   height: 50vw;
   max-height: 300px;
