@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --accent-color: #4b5320;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,8 +53,18 @@ hr {
   border: 1px var(--secondary-color) solid;
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  padding: 10px 20px;
+  padding: 10px 80px;
   border-radius: 40px;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.button:active {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 #logo {
@@ -73,7 +84,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3vh
+  gap: 3vh;
 }
 
 #contact_us {
@@ -86,13 +97,22 @@ hr {
   display: flex;
   flex-direction: column;
 }
- #location {
-   padding-bottom: 10vh;
-   font-size: max(2vmin, 13px);
- }
+
+#location {
+  padding-bottom: 10vh;
+  font-size: max(2vmin, 13px);
+}
+
+#mission_statement {
+  width: 35vw;
+}
 
 @media only screen and (max-width: 1000px) {
   .section {
+    width: 75vw;
+  }
+
+  #mission_statement {
     width: 75vw;
   }
 }
