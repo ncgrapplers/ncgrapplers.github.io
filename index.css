@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   * {
-    --primary-color: #262024;
+    --primary-color: #2e2e2e;
     --secondary-color: #ffffff;
   }
 
