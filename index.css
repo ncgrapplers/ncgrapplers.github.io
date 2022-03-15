@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --accent-color: #4b5320;
+  --accent-color: #4dd2ff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,7 +50,7 @@ hr {
 
 .button {
   text-decoration: none;
-  border: 1px var(--secondary-color) solid;
+  border: 3px var(--secondary-color) solid;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   padding: 10px 80px;
@@ -87,6 +87,10 @@ hr {
 
 #header h4 {
   letter-spacing: 7px;
+}
+
+#header h5 {
+  letter-spacing: 5px;
 }
 
 #sign_up {
