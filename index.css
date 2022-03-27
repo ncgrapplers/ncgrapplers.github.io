@@ -48,6 +48,10 @@ hr {
   justify-content: center;
 }
 
+.inline_link {
+  color: var(--secondary-color);
+}
+
 .button {
   text-decoration: none;
   border: 3px var(--secondary-color) solid;
@@ -66,6 +70,7 @@ hr {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
+
 
 .link {
   text-decoration: none;
