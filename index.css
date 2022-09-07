@@ -43,6 +43,13 @@ hr {
   border-radius: 1px;
 }
 
+a {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: max(3vmin, 17px);
+}
+
 .section {
   width: 50vw;
   justify-content: center;
